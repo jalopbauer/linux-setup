@@ -1,0 +1,9 @@
+#!/bin/sh
+sudo dnf -y remove \
+gnome-tour \
+libreoffice* \
+gnome-help \
+rhythmbox \
+gnome-connections \
+mediawriter
+sudo dnf -y autoremove

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Folders
+PROJECTS="Projects"
+REPOSITORIES="Repositories"
+TORRENTS="Torrents"
+FACULTAD="Facultad"

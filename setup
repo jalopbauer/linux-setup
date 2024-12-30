@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Folders
+source ./variables
+
+mkdir "$PROJECTS" "$REPOSITORIES" "$TORRENTS" "$FACULTAD"
+
+# Packages
+./packages/setup

@@ -1,0 +1,5 @@
+#!/bin/sh
+./start
+./rpm-fusion
+./remove
+./install
