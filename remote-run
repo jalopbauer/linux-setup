@@ -1,2 +1,7 @@
 #!/bin/sh
+
 git clone https://github.com/jalopbauer/linux-setup
+
+cd linux-setup/
+
+bash ./setup
