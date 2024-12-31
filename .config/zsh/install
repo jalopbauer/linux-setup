@@ -1,6 +1,0 @@
-#!/bin/sh
-
-
-cat ../shell/aliases >> ./.zshrc
-
-echo 'eval "$(starship init zsh)"' >> ./.zshrc

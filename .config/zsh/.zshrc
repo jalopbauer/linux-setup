@@ -1,3 +1,5 @@
+
+
 # Aliases
 ## ls to "exa"
 LS='exa'
@@ -39,3 +41,5 @@ alias dcr="docker-compose restart"
 alias dcu="docker-compose up"
 alias dcupd="docker-compose up -d"
 alias dcdn="docker-compose down"
+
+eval "$(starship init zsh)"
