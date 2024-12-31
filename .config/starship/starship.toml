@@ -1,0 +1,56 @@
+format = """
+[ ](bg:purple)\
+$username\
+[](bg:blue fg:purple)\
+$directory\
+[](fg:blue bg:cyan)\
+$git_branch\
+$git_status\
+[ ](fg:cyan)
+$character
+"""
+
+right_format = """
+$cmd_duration"""
+
+[username]
+show_always = true
+style_user = "bg:purple"
+style_root = "bg:purple"
+format = '[$user ]($style)'
+
+[directory]
+style = "bg:blue"
+format = "[ $path ]($style)"
+home_symbol = " "
+truncation_length = 10
+truncate_to_repo = false
+
+[directory.substitutions]
+"Documents" = " "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+"configs" = " "
+".config" = " "
+
+[git_branch]
+symbol = ""
+style = "bg:cyan"
+format = '[[ $symbol $branch ](bg:cyan)]($style)'
+
+[git_status]
+style = "bg:cyan"
+format = '[[($all_status$ahead_behind )](bg:cyan)]($style)'
+
+[character]
+success_symbol = "[ ](bg:green)[  ](bg:green)[](fg:green)"
+error_symbol = "[ ](bg:red)[   ](bg:red)[](fg:red)"
+
+[cmd_duration]
+format = "[$duration]($style)"
+style = "bold yellow"
+min_time = 2000
+show_milliseconds = false
+show_notifications = true
+min_time_to_notify = 20_500
