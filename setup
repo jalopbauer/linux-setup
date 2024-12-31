@@ -6,4 +6,4 @@ source ./variables
 mkdir "$PROJECTS" "$REPOSITORIES" "$TORRENTS" "$FACULTAD"
 
 # Packages
-./packages/setup
+./setup-packages
