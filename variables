@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # Folders
-PROJECTS="Projects"
-REPOSITORIES="Repositories"
-TORRENTS="Torrents"
-FACULTAD="Facultad"
+PROJECTS="~/Projects"
+SANDBOX="~/Sandbox"
+REPOSITORIES="~/Repositories"
+TORRENTS="~/Videos/Torrents"
+FACULTAD="~/Facultad"
