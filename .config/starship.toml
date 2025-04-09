@@ -1,0 +1,17 @@
+format = """$directory
+$character
+"""
+
+right_format = """$git_branch"""
+
+[package]
+disabled = true
+
+[directory]
+truncation_length = 10
+truncate_to_repo = false
+style = 'bold purple'
+
+[git_branch]
+format="""[$branch]($style)"""
+style='bold blue'
