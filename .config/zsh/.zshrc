@@ -1,7 +1,5 @@
 # Aliases
-## ls to "exa"
-LS='exa'
-
+## ls
 alias ls="ls --color=always --group-directories-first"
 alias la="ls -a --color=always --group-directories-first"
 alias ll="ls -l --color=always --group-directories-first"
@@ -13,10 +11,6 @@ alias l.="ls -Ad --group-directories-first --color=auto .*"
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
-
-# Flag Additions
-alias df='df -h'
-alias free='free -m'
 
 ## Git
 alias g="git"
@@ -36,6 +30,10 @@ alias dcr="docker-compose restart"
 alias dcu="docker-compose up"
 alias dcupd="docker-compose up -d"
 alias dcdn="docker-compose down"
+
+## Other
+alias df='df -h'
+alias free='free -m'
 
 # Prompt
 autoload -Uz vcs_info
