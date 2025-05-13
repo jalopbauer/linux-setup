@@ -47,6 +47,4 @@ org.gnome.Boxes \
 com.obsproject.Studio \
 io.github.zen_browser.zen \
 org.onlyoffice.desktopeditors \
-de.haeckerfelix.Fragments \
-org.gnome.Solanum \
-app.zen_browser.zen
+de.haeckerfelix.Fragments
