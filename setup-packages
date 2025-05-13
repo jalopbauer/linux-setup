@@ -30,11 +30,8 @@ sudo dnf -y autoremove
 # Install
 ## Fedora
 sudo dnf install \
-exa \
 vim \
 htop \
-bat \
-starship \
 zsh
 
 ## Flatpak
@@ -52,8 +49,3 @@ io.github.zen_browser.zen \
 org.onlyoffice.desktopeditors \
 de.haeckerfelix.Fragments \
 org.gnome.Solanum
-
-## Snap
-sudo dnf install snapd
-sudo ln -s /var/lib/snapd/snap /snap
-sudo snap install spotify
